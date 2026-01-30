@@ -1,0 +1,11 @@
+node_modules
+dist
+
+.idea
+
+/*.d.ts
+
+/package-lock.yaml
+/pnpm-lock.yaml
+
+.DS_Store

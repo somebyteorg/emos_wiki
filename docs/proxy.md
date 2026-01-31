@@ -2,7 +2,7 @@
 
 本服欢迎各位大佬反代 也希望您将地址贡献出来
 
-建议反代路径为 `/emby`
+反代域名为 `https://emos.best` 建议反代路径为 `/emby`
 
 ## 配置相关
 
@@ -15,6 +15,10 @@
 必须处理 `206` 视频流状态码
 
 建议缓存 `/emby/Items/*/Images/*` 开头的图片地址
+
+建议缓存 `/emby/System/Ping`
+
+建议对 `/emby/Sessions/Playing/Progress` 节流处理
 
 ## 测试相关
 

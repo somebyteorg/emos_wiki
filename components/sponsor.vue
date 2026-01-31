@@ -61,7 +61,7 @@
     },
     {
       time: '2025/10/17',
-      name: '匿名',
+      name: 'Beiwang',
       price: 188.88,
       remark: '机器人私聊',
     },
@@ -152,7 +152,7 @@
     },
     {
       time: '2025/10/31',
-      name: 'Love_benghuai3',
+      name: 'Herissmon',
       body: 'od',
     },
     {

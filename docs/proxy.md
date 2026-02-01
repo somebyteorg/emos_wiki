@@ -53,7 +53,9 @@
 
 在支持的播放器中，可以直接进行切换地址使用。
 
-<proxy/>
+<ClientOnly>
+  <proxy/>
+</ClientOnly>
 
 <script setup>
 import proxy from '../components/proxy.vue'

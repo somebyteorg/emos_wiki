@@ -132,6 +132,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/02/01',
+      name: '黑白灰',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

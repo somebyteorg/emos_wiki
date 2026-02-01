@@ -42,6 +42,10 @@ export default defineConfig({
             text: '兼容性列表',
             link: '/introduction/compatibility',
           },
+          {
+            text: '萝卜',
+            link: '/introduction/carrot',
+          },
         ],
       },
       {

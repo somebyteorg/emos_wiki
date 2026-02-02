@@ -144,6 +144,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/02/03',
+      name: '愿望实行',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -150,6 +150,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/02/07',
+      name: 'Y1025',
+      price: 8.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

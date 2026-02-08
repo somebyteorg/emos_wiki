@@ -156,6 +156,12 @@
       price: 8.88,
       remark: '私聊',
     },
+    {
+      time: '2026/02/08',
+      name: 'Y1025',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

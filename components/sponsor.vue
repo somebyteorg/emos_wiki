@@ -33,7 +33,13 @@
           <tr v-for="good in goods">
             <td>{{ good.time }}</td>
             <td>{{ good.name }}</td>
-            <td>{{ good.body }}</td>
+            <td
+              :style="{
+                'text-decoration': good.is_expire ? 'line-through' : 'none',
+              }"
+            >
+              {{ good.body }}
+            </td>
           </tr>
         </tbody>
       </table>
@@ -169,12 +175,14 @@
     name: string
     body: string
     remark?: string
+    is_expire?: boolean
   }> = [
     // prettier-ignore
     {
       time: '2025/09/23',
       name: 'yzhazha',
-      body: 'od'
+      body: 'od',
+      is_expire: true,
     },
     {
       time: '2025/10/02',
@@ -220,6 +228,7 @@
       time: '2026/01/25',
       name: 'Wyatt',
       body: 'od',
+      is_expire: true,
     },
   ]
 </script>

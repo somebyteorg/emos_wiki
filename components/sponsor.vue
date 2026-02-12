@@ -186,6 +186,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/02/12',
+      name: '北凉柿子 徐凤年',
+      price: 30,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -247,6 +253,11 @@
       name: 'Wyatt',
       body: 'od',
       is_expire: true,
+    },
+    {
+      time: '2026/02/10',
+      name: 'kiyukie',
+      body: 'sp',
     },
     {
       time: '2026/02/12',

@@ -248,5 +248,45 @@
       body: 'od',
       is_expire: true,
     },
+    {
+      time: '2026/02/12',
+      name: 'CapyPlayer 播放器',
+      body: '5终身、5年度',
+    },
+    {
+      time: '2026/02/12',
+      name: 'EplayerX 播放器',
+      body: '2终身、5年度、5月度',
+    },
+    {
+      time: '2026/02/12',
+      name: 'Hills 播放器',
+      body: '2终身',
+    },
+    {
+      time: '2026/02/12',
+      name: 'VidHub 播放器',
+      body: '5终身、5年度、3月度',
+    },
+    {
+      time: '2026/02/12',
+      name: '某知名播放器',
+      body: '2、1、1',
+    },
+    {
+      time: '2026/02/12',
+      name: 'Rodel Player 播放器',
+      body: '5终身',
+    },
+    {
+      time: '2026/02/12',
+      name: 'AfuseKt 播放器',
+      body: '1永久PRO、10永久',
+    },
+    {
+      time: '2026/02/12',
+      name: 'Forward 播放器',
+      body: '3终身',
+    },
   ]
 </script>

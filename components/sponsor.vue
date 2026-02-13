@@ -192,6 +192,24 @@
       price: 30,
       remark: '私聊',
     },
+    {
+      time: '2026/02/14',
+      name: '好纠结的小晟狄',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/14',
+      name: '冉',
+      price: 10,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/14',
+      name: 'yellowflash',
+      price: 28.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

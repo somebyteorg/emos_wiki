@@ -299,5 +299,10 @@
       name: 'Forward 播放器',
       body: '3终身',
     },
+    {
+      time: '2026/02/13',
+      name: '某知名播放器',
+      body: '3PRO',
+    },
   ]
 </script>

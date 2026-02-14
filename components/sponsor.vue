@@ -210,6 +210,12 @@
       price: 28.88,
       remark: '私聊',
     },
+    {
+      time: '2026/02/14',
+      name: '小白',
+      price: 30,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

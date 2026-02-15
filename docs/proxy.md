@@ -22,9 +22,11 @@
 
 ## 测试相关
 
-当你反代成功后 访问 `/emby/system/ext/proxy/test`
+### 测试头部是否正常
 
-如 `https://emos.poxy/emby/system/ext/proxy/test`
+反代成功后 访问 `/emby/system/ext/proxy/test`
+
+如 `https://emos.proxy/emby/system/ext/proxy/test`
 
 ```json
 {
@@ -38,6 +40,28 @@
   "ua": "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
 }
 ```
+
+### 测试是否支持206状态码
+
+访问 `/emby/System/Ext/Proxy/TestVideo`
+
+如 `https://emos.proxy/emby/System/Ext/Proxy/TestVideo`
+
+```bash
+curl -i -L -H "Range: bytes=0-1" "https://emos.proxy/emby/System/Ext/Proxy/TestVideo"
+```
+
+输出类似如下即可
+
+```text
+HTTP/2 206
+content-range: bytes 0-1/84890474
+```
+
+### 测速文件
+
+- https://files.emosstore.sbs/files/speedtest/johann-mouse.mp4
+- https://files.emosstore.sbs/files/speedtest/100mb.bin
 
 ## 分流相关
 

@@ -5,6 +5,7 @@
         <th>#</th>
         <th>名称</th>
         <th>备注</th>
+        <th>地址</th>
         <th>添加时间</th>
       </tr>
     </thead>
@@ -13,7 +14,8 @@
         <td>{{ index + 1 }}</td>
         <td>{{ proxy.name }}</td>
         <td>{{ proxy.tagline }}</td>
-        <td>{{ proxy.created_at }}</td>
+        <td>{{ proxy.url }}</td>
+        <td class="created_at">{{ proxy.created_at }}</td>
       </tr>
     </tbody>
   </table>
@@ -26,3 +28,11 @@
     }
   getProxy()
 </script>
+<style lang="css">
+  .proxy td {
+    white-space: nowrap;
+  }
+  .proxy .created_at {
+    font-family: ui-monospace, monospace;
+  }
+</style>

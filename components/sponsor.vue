@@ -240,6 +240,12 @@
       price: 2,
       remark: '私聊',
     },
+    {
+      time: '2026/02/16',
+      name: 'cherrycarol',
+      price: 50,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

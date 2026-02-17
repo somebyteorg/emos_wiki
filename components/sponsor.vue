@@ -246,6 +246,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/02/17',
+      name: 'fei foi',
+      price: 28.8,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -252,6 +252,12 @@
       price: 28.8,
       remark: '私聊',
     },
+    {
+      time: '2026/02/17',
+      name: '落雨',
+      price: 154,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

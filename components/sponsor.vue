@@ -288,6 +288,12 @@
       price: 10,
       remark: '私聊',
     },
+    {
+      time: '2026/02/18',
+      name: 'xzc_cccc',
+      price: 9.99,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -258,6 +258,36 @@
       price: 154,
       remark: '私聊',
     },
+    {
+      time: '2026/02/17',
+      name: 'numb',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/18',
+      name: 'deathvader',
+      price: 10,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/18',
+      name: '好纠结的小晟狄',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/18',
+      name: '尊非',
+      price: 20,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/18',
+      name: 'sunshine_0506',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

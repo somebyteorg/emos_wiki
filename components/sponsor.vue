@@ -294,6 +294,12 @@
       price: 9.99,
       remark: '私聊',
     },
+    {
+      time: '2026/02/18',
+      name: '阿里嘎多美羊羊桑',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

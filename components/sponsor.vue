@@ -302,9 +302,15 @@
     },
     {
       time: '2026/02/19',
-      name: '匿名',
+      name: '史迪仔',
       price: 100,
       remark: '机器人私聊',
+    },
+    {
+      time: '2026/02/19',
+      name: '落雨',
+      price: 88,
+      remark: '私聊',
     },
   ].reverse()
 

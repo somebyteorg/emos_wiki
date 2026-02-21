@@ -80,6 +80,10 @@ export default defineConfig({
             text: '片单',
             link: '/api/watch',
           },
+          {
+            text: '支付服务商',
+            link: '/api/pay',
+          },
         ],
       },
     ],

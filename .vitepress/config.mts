@@ -76,6 +76,10 @@ export default defineConfig({
             text: '上传相关',
             link: '/api/upload',
           },
+          {
+            text: '片单',
+            link: '/api/watch',
+          },
         ],
       },
     ],

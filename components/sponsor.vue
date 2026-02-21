@@ -312,6 +312,12 @@
       price: 88,
       remark: '私聊',
     },
+    {
+      time: '2026/02/19',
+      name: '匿名',
+      price: 28.88,
+      remark: '转私聊',
+    },
   ].reverse()
 
   const goods: Array<{

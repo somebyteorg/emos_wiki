@@ -324,6 +324,12 @@
       price: 18.88,
       remark: '机器人私聊',
     },
+    {
+      time: '2026/02/22',
+      name: 'liuerao',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -336,6 +336,36 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/02/23',
+      name: 'K9999',
+      price: 38.88,
+      remark: '机器人私聊',
+    },
+    {
+      time: '2026/02/23',
+      name: 'Light',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/23',
+      name: 'yushunqwq',
+      price: 10,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/23',
+      name: '落雨',
+      price: 18.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/02/23',
+      name: '匿名',
+      price: 66.66,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

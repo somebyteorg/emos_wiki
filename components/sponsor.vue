@@ -330,6 +330,12 @@
       price: 10,
       remark: '私聊',
     },
+    {
+      time: '2026/02/23',
+      name: '汗水',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

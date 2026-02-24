@@ -372,6 +372,12 @@
       price: 18.88,
       remark: '私聊',
     },
+    {
+      time: '2026/02/24',
+      name: '鱼跃鸿沟',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -390,6 +390,12 @@
       price: 28,
       remark: '私聊',
     },
+    {
+      time: '2026/02/26',
+      name: '麦提爽',
+      price: 30,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

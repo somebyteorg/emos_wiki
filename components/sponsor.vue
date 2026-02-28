@@ -396,6 +396,12 @@
       price: 30,
       remark: '私聊',
     },
+    {
+      time: '2026/02/28',
+      name: '天元突破红莲',
+      price: 50,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

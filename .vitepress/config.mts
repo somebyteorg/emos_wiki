@@ -84,6 +84,10 @@ export default defineConfig({
             text: '支付服务商',
             link: '/api/pay',
           },
+          {
+            text: '商城',
+            link: '/api/shop',
+          },
         ],
       },
     ],

@@ -402,6 +402,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/03/01',
+      name: '郑威',
+      price: 28.8,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

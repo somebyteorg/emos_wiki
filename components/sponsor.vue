@@ -408,6 +408,18 @@
       price: 28.8,
       remark: '私聊',
     },
+    {
+      time: '2026/03/02',
+      name: '清风',
+      price: 66,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/06',
+      name: '匿名',
+      price: 18.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

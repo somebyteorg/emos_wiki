@@ -8,6 +8,9 @@
 
 接口地址 https://www.postman.com/somebyteorg/emos
 
+测试服地址: `https://dev.emos.best`
+测试服TOKEN: `11_test-token`
+
 ## 快捷登录
 
 访问主站 会有一个 `密钥`

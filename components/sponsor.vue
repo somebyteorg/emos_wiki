@@ -426,6 +426,12 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/03/07',
+      name: '眨眼雪鼠',
+      price: 38.8,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

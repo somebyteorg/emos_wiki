@@ -48,6 +48,8 @@
 
 如 `https://t.me/emos_test_bot?start=emosLinkAgree-11_AkJO2UdOKinqmKOU`
 
+可以调用 `登录相关` `判断是否登录` 来获得 `用户ID`
+
 ### 拒绝
 
 `https://t.me/[机器人的name]?start=emosLinkRefuse-[TelegramID]`

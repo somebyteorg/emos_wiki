@@ -432,6 +432,18 @@
       price: 38.8,
       remark: '私聊',
     },
+    {
+      time: '2026/03/11',
+      name: '匿名',
+      price: 10,
+      remark: '机器人私聊',
+    },
+    {
+      time: '2026/03/11',
+      name: '寻舟',
+      price: 100,
+      remark: '私聊bot',
+    },
   ].reverse()
 
   const goods: Array<{

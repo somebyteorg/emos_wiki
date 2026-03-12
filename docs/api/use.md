@@ -6,10 +6,18 @@
 
 > 如遇接口设计不合理等，请及时反馈，不要自己拼接研究怎么使用。
 
-接口地址 https://www.postman.com/somebyteorg/emos
+接口文档: https://www.postman.com/somebyteorg/emos
 
-测试服地址: `https://dev.emos.best`
-测试服TOKEN: `11_test-token`
+### 正式服信息
+
+建议使用官方的 `https://emos.best` 地址
+
+如遇 `cf` `403` 等问题，可以切换为 `https://api.emos.best` 备用地址。
+
+### 测试服信息
+
+- 地址: `https://test.emos.best`
+- TOKEN: `11_test-token`
 
 ## 快捷登录
 

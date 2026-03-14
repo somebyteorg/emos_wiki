@@ -27,3 +27,10 @@
 
 如 `https://emos.best/#/sign?token=xxx_xxx`
 
+## 其他物料
+
+### logo
+
+- https://files.emos.best/files/base/logo/logo_1.jpg
+- https://files.emos.best/files/base/logo/logo_2.jpg
+

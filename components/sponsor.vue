@@ -444,6 +444,18 @@
       price: 100,
       remark: '私聊bot',
     },
+    {
+      time: '2026/03/14',
+      name: '匿名',
+      price: 18.88,
+      remark: '私聊bot',
+    },
+    {
+      time: '2026/03/14',
+      name: '落雨',
+      price: 88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

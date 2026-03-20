@@ -462,6 +462,12 @@
       price: 18.88,
       remark: '私聊bot',
     },
+    {
+      time: '2026/03/20',
+      name: 'First Name',
+      price: 66,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -480,6 +480,18 @@
       price: 18.88,
       remark: '私聊',
     },
+    {
+      time: '2026/03/23',
+      name: '匿名',
+      price: 18.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/23',
+      name: 'Merry',
+      price: 51,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -516,6 +516,12 @@
       price: 10,
       remark: '私聊',
     },
+    {
+      time: '2026/03/24',
+      name: 'milanello',
+      price: 6.66,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

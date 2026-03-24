@@ -510,6 +510,12 @@
       price: 30,
       remark: '私聊',
     },
+    {
+      time: '2026/03/24',
+      name: '星空渊',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -522,6 +522,42 @@
       price: 6.66,
       remark: '私聊',
     },
+    {
+      time: '2026/03/25',
+      name: '皮皮皮皮皮皮',
+      price: 99,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/25',
+      name: '匿名',
+      price: 1,
+      remark: '私聊bot',
+    },
+    {
+      time: '2026/03/25',
+      name: 'milanello',
+      price: 15.8,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/25',
+      name: '憨憨',
+      price: 5,
+      remark: '私聊bot',
+    },
+    {
+      time: '2026/03/25',
+      name: '躺下來',
+      price: 200,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/25',
+      name: '匿名',
+      price: 28.8,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

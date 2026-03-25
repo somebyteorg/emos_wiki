@@ -69,6 +69,10 @@ export default defineConfig({
             link: '/api/use',
           },
           {
+            text: '更新记录',
+            link: '/api/changelog',
+          },
+          {
             text: '连接',
             link: '/api/link',
           },

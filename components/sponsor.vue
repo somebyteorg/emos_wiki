@@ -570,6 +570,12 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/03/27',
+      name: 'ruoai',
+      price: 200,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

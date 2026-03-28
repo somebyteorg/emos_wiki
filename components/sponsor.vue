@@ -600,6 +600,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/03/28',
+      name: 'Symsc',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

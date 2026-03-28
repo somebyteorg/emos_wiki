@@ -606,6 +606,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/03/28',
+      name: '沃德天·泥维森陌·拉莫帅',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

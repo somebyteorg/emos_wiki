@@ -636,6 +636,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/03/29',
+      name: 'Ghostbeatin',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

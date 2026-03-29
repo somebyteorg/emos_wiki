@@ -630,6 +630,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/03/29',
+      name: '棒冰冰',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

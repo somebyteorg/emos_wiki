@@ -648,6 +648,42 @@
       price: 28.88,
       remark: '私聊',
     },
+    {
+      time: '2026/04/02',
+      name: '匿名',
+      price: 28.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/03',
+      name: 'liuerao',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/03',
+      name: '闲人',
+      price: 100,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/03',
+      name: '落雨',
+      price: 88.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/04',
+      name: '匿名',
+      price: 6.66,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/04',
+      name: 'Aurora',
+      price: 19.9,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -775,6 +811,7 @@
       time: '2026/02/13',
       name: 'rueben',
       body: 'gd',
+      is_expire: true,
     },
     {
       time: '2026/02/16',

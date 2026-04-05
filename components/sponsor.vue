@@ -684,6 +684,24 @@
       price: 19.9,
       remark: '私聊',
     },
+    {
+      time: '2026/04/05',
+      name: 'ccxv',
+      price: 20,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/05',
+      name: '匿名',
+      price: 50,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/05',
+      name: 'liurenl',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

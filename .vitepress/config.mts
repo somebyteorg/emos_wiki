@@ -94,6 +94,16 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: 'more',
+        collapsed: true,
+        items: [
+          {
+            text: '临时文件',
+            link: '/more/temporary',
+          },
+        ],
+      },
     ],
   },
 })

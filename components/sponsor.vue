@@ -720,6 +720,36 @@
       price: 18.88,
       remark: '私聊',
     },
+    {
+      time: '2026/04/07',
+      name: 'Albert',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/07',
+      name: '周树人',
+      price: 20,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/07',
+      name: 'Akina',
+      price: 20,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/07',
+      name: '牛牛',
+      price: 8.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/03/27',
+      name: '躺下來',
+      price: 400,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

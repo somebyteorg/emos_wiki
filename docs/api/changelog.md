@@ -27,4 +27,29 @@
 
 `/api/shop/order/shop/update` 移除 商城 更新订单 接口 改为 `更新发货状态` 和 `更新备注` 接口
 
+## 26-04-09
 
+获取`上传token` `/api/upload/getUploadToken` 中
+
+对于 `图片` `字幕` 暂停了 `r2`类型 增加了 `tusd` 类型
+
+以下罗列的图片类 均有改动 主要删除 `文件ID` 改为 `文件url`
+
+### 商城
+
+- `POST` `/api/shop/seller/update` 删除 `cover` 增加 `cover_url`
+- `POST` `/api/shop/product/createOrUpdate` 删除 `cover` 增加 `cover_url`
+
+### 直播
+
+- `GET` `/api/live/list` 删除 `image_poster`
+- `POST` `/api/live/list` 删除 `image_poster` 增加 `image_poster_url`
+
+### 片单
+
+- `GET` `/api/watch` 删除 `image_poster`
+- `POST` `/api/watch` 删除 `image_poster` 增加 `image_poster_url`
+
+### 红包
+
+- `POST` `/api/redPacket/create` 删除 `file_id`

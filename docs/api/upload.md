@@ -51,8 +51,8 @@ let file = File,
 fetch(upload_url, {
     method: 'PUT',
     headers: {
-      'Content-Type': 'application/octet-stream',
-      'Content-Range': `bytes ${start}-${end}/${total}`
+        'Content-Type': 'application/octet-stream',
+        'Content-Range': `bytes ${start}-${end}/${total}`
     },
     body: file,
 })
@@ -69,6 +69,45 @@ fetch(upload_url, {
     method: 'PUT',
     body: file,
 })
+```
+
+#### tusd
+
+- https://tus.github.io/tusd/getting-started/usage/
+
+##### tus-js-client
+
+```js
+let file = File
+
+let upload = new tus.Upload(file, {
+    endpoint: 'https://file.emos.best/files/',
+    // 分片大小 不要超过100
+    chunkSize: 100 * 1024 * 1024,
+    retryDelays: [0, 1000],
+    // 移除上传成功的记录 开发用
+    removeFingerprintOnSuccess: true,
+    metadata: {
+        user_id: '[用户ID]',
+        file_id: '[文件ID]',
+    },
+    onError: function (error) {
+        console.log('Failed because: ' + error)
+    },
+    onProgress: function (bytesUploaded, bytesTotal) {
+        var percentage = ((bytesUploaded / bytesTotal) * 100).toFixed(2)
+        console.log(bytesUploaded, bytesTotal, percentage + '%')
+    },
+    onSuccess: function (res) {
+        let {file_id, url} = JSON.parse(res.lastResponse.getBody())
+
+        // {"file_id":"xxxx","url":"xxxx"}
+        console.log(file_id, url)
+        console.log('success %s from %s', upload.file.name, url)
+    },
+})
+
+upload.start()
 ```
 
 ## 视频相关

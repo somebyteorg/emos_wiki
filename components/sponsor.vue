@@ -786,6 +786,18 @@
       price: 18.88,
       remark: '私聊bot',
     },
+    {
+      time: '2026/04/08',
+      name: '张三',
+      price: 188,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/08',
+      name: 'Myles',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

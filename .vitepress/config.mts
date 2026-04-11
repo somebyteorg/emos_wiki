@@ -15,7 +15,10 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
-    nav: [{ text: '主页', link: 'https://emos.best/' }],
+    nav: [
+      { text: '主页', link: 'https://emos.best' },
+      { text: '系统状态', link: 'https://status.emos.best/status/emos' },
+    ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/somebyteorg/emos_home' }],
     editLink: {
       pattern: 'https://github.com/somebyteorg/emos_wiki/edit/main/docs/:path',

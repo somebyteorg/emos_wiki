@@ -822,6 +822,18 @@
       price: 18.80,
       remark: '私聊',
     },
+    {
+      time: '2026/04/12',
+      name: '烟酒不沾身',
+      price: 25.85,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/12',
+      name: '匿名',
+      price: 18.88,
+      remark: '私聊bot',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -965,6 +977,11 @@
       time: '2026/03/07',
       name: 'Tomo',
       body: '服务器',
+    },
+    {
+      time: '2026/04/12',
+      name: 'Vidora 播放器',
+      body: '5终身、5年度',
     },
   ]
 </script>

@@ -819,7 +819,7 @@
     {
       time: '2026/04/11',
       name: 'Myles',
-      price: 18.80,
+      price: 18.8,
       remark: '私聊',
     },
     {
@@ -833,6 +833,36 @@
       name: '匿名',
       price: 18.88,
       remark: '私聊bot',
+    },
+    {
+      time: '2026/04/13',
+      name: '落雨',
+      price: 188,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/14',
+      name: '匿名',
+      price: 188,
+      remark: '机器人私聊',
+    },
+    {
+      time: '2026/04/14',
+      name: 'Myles',
+      price: 88.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/14',
+      name: '躺下來',
+      price: 500,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/14',
+      name: '阿里嘎多美羊羊桑',
+      price: 100,
+      remark: '私聊',
     },
   ].reverse()
 

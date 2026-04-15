@@ -864,6 +864,30 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/04/14',
+      name: '王者荣耀世界',
+      price: 28.8,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/15',
+      name: 'YUZZ',
+      price: 222,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/15',
+      name: 'T',
+      price: 100,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/15',
+      name: '周树人',
+      price: 88.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

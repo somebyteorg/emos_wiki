@@ -894,6 +894,12 @@
       price: 99,
       remark: '私聊',
     },
+    {
+      time: '2026/04/18',
+      name: '小蘑菇🍄',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

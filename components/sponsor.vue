@@ -930,6 +930,7 @@
       time: '2025/10/31',
       name: 'Herissmon',
       body: 'od',
+      is_expire: true,
     },
     {
       time: '2025/11/05',
@@ -967,6 +968,7 @@
       time: '2026/02/10',
       name: 'kiyukie',
       body: 'sp',
+      is_expire: true,
     },
     {
       time: '2026/02/12',

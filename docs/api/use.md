@@ -27,6 +27,16 @@
 
 如 `https://emos.best/#/sign?token=xxx_xxx`
 
+## 名词解释
+
+- `vb` `video library` 媒体库ID
+- `vl` `video list` 视频ID
+- `vs` `video season` 电视中 季ID
+- `ve` `video episode` 电视中 集ID
+- `vp` `video part` 视频中 片段ID
+- `vm` `video meida` 视频中 具体的资源ID
+- `vt` `video subtitle` 视频中 具体的字幕ID
+
 ## 其他物料
 
 ### logo

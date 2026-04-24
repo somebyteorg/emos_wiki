@@ -906,6 +906,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/04/23',
+      name: 'chenbai28',
+      price: 15,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

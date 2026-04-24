@@ -17,7 +17,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: 'https://emos.best' },
-      { text: '系统状态', link: 'https://status.emos.best/status/emos' },
+      { text: '系统状态', link: 'https://status.emos.best' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/somebyteorg/emos_home' }],
     editLink: {

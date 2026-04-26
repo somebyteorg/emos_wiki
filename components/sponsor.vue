@@ -844,7 +844,7 @@
       time: '2026/04/14',
       name: '匿名',
       price: 188,
-      remark: '机器人私聊',
+      remark: '私聊',
     },
     {
       time: '2026/04/14',
@@ -910,6 +910,12 @@
       time: '2026/04/23',
       name: 'chenbai28',
       price: 15,
+      remark: '私聊',
+    },
+    {
+      time: '2026/04/26',
+      name: '匿名',
+      price: 108,
       remark: '私聊',
     },
   ].reverse()

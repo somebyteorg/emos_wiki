@@ -5,7 +5,7 @@ layout: home
 hero:
   name: emos
   text: 携手共建的公益服
-  tagline: 愿您可以找到带您一起玩的伙伴，我们一起愉快观影。
+  tagline: 愿您不觉孤单，在此均有回响。
   actions:
     - theme: brand
       text: 了解更多

@@ -918,6 +918,18 @@
       price: 108,
       remark: '私聊',
     },
+    {
+      time: '2026/05/01',
+      name: '降龙',
+      price: 30,
+      remark: '私聊',
+    },
+    {
+      time: '2026/05/01',
+      name: '烟酒不沾身',
+      price: 20,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

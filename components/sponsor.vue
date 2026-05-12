@@ -930,6 +930,12 @@
       price: 20,
       remark: '私聊',
     },
+    {
+      time: '2026/05/12',
+      name: '张三',
+      price: 200,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

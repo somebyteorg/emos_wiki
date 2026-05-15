@@ -936,6 +936,18 @@
       price: 200,
       remark: '私聊',
     },
+    {
+      time: '2026/05/14',
+      name: '清欢',
+      price: 188,
+      remark: '私聊',
+    },
+    {
+      time: '2026/05/15',
+      name: '落雨',
+      price: 188,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -1086,6 +1098,16 @@
       time: '2026/04/12',
       name: 'Vidora 播放器',
       body: '5终身、5年度',
+    },
+    {
+      time: '2026/05/15',
+      name: 'kkbox key',
+      body: '躺下來',
+    },
+    {
+      time: '2026/05/15',
+      name: 'spotify key',
+      body: 'DELE',
     },
   ]
 </script>

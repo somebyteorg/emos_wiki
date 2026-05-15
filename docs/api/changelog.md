@@ -53,3 +53,10 @@
 ### 红包
 
 - `POST` `/api/redPacket/create` 删除 `file_id`
+
+## 2026-05-15
+
+`/api/redPacket/create` 发红包
+
+- 修改 `type` 红包类型字段
+- 增加 `receive` 领取类型字段

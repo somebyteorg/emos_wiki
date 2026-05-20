@@ -966,6 +966,12 @@
       price: 500,
       remark: '私聊',
     },
+    {
+      time: '2026/05/21',
+      name: '阿昔先生',
+      price: 70.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

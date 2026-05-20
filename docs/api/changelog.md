@@ -60,3 +60,25 @@
 
 - 修改 `type` 红包类型字段
 - 增加 `receive` 领取类型字段
+
+## 2026-05-16
+
+### 个人信息
+
+`GET` `/api/user`
+
+- 删除 `emya_url`
+- 增加 `server_` 开头的服字段
+- 将 `emya_password` 改为 `password`
+- 将 `watch_slot_remaining` 改为 `slot_remaining`
+
+### 地址变动
+
+- 获取一次性登录密码 由 `/api/emya/getLoginPassword` 改为 `/api/user/passwordTemporary`
+- 重置永久登录密码 由 `/api/emya/resetPassword` 改为 `/api/user/passwordReset`
+- 登录的设备列表 由 `/api/emya/history` 改为 `/api/user/server/videoHistory`
+- 退出登录的设备 由 `/api/emya/logout` 改为 `/api/user/server/videoLogout`
+
+### 片单
+
+- 兑换新卡槽 `/api/watch/slot` 返回值 由 `watch_slot_remaining` 改为 `slot_remaining`

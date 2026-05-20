@@ -2,7 +2,10 @@
 
 本服欢迎各位大佬反代 也希望您将地址贡献出来
 
-反代域名为 `https://emos.best` 建议反代路径为 `/emby`
+## 反代地址
+
+- 视频服反代域名为 `https://video.emos.best` 建议反代路径为 `/emby`
+- 音乐服反代域名为 `https://music.emos.best` 建议反代路径为 `/rest`
 
 ## 配置相关
 
@@ -21,6 +24,8 @@
 建议对 `/emby/Sessions/Playing/Progress` 节流处理
 
 ## 测试相关
+
+> 以下测试只针对视频服
 
 最简单的为播放后通过 `bot` 查询下请求数 过多则证明反代异常
 

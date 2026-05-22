@@ -218,3 +218,39 @@ upload.start()
     "subtitle_id": "Bpvx8YxPoVdQ"
 }
 ```
+
+## 其他
+
+### 通知
+
+目前的上传通知会在 [emospg_notify](`https://t.me/emospg_notify`) 这里推送
+
+如果需要接入通知 可提供一个地址 系统将会以 `POST` 形式发送以下内容到的你的接口
+
+`tmdb_id` 和 `user_pseudonym` 有概率为 `null`
+
+```json
+// 电视
+{
+    "video_id": 1000,
+    "video_type": "tv",
+    "video_title": "21世纪大君夫人",
+    "todb_id": 1000,
+    "tmdb_id": 278573,
+    "media_id": "xxxxx",
+    "user_pseudonym": "张三",
+    "season_number": 1,
+    "episode_number": 1
+}
+
+// 电影
+{
+    "video_id": 1001,
+    "video_type": "movie",
+    "video_title": "最伟大的作品",
+    "todb_id": 1001,
+    "tmdb_id": null,
+    "media_id": "xxxxxx",
+    "user_pseudonym": null
+}
+```

@@ -972,6 +972,12 @@
       price: 70.88,
       remark: '私聊',
     },
+    {
+      time: '2026/05/22',
+      name: 'xzc_cccc',
+      price: 10,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

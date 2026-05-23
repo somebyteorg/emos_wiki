@@ -82,3 +82,10 @@
 ### 片单
 
 - 兑换新卡槽 `/api/watch/slot` 返回值 由 `watch_slot_remaining` 改为 `slot_remaining`
+
+## 2026-05-23
+
+片单新增了 `type` 字段 新增或修改 `POST` `/api/watch` 时必填
+
+- `video` 视频片单
+- `music` 音乐歌单

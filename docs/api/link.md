@@ -6,6 +6,8 @@
 
 可通过 `authorization`: `Bearer [token]` 模式访问公开接口
 
+`token` 只有当用户手动重置时才会失效
+
 ## 网页授权
 
 当用户点击登录时 跳转到这个地址
@@ -24,9 +26,23 @@
 - `avatar` 用户头像
 - `token` 用户token
 
-建议将收到的 `user_id` `username` `avatar` 和 `token` 保存到 `sessionStorage` 中
+## 网页授权V2
 
-每次打开浏览器时 重新触发授权操作
+> 需申请使用
+
+可直接通过 `soby` 进行登录
+
+当用户点击登录时候 跳转到 `https://emos.best/api/sign?state=[state]`
+
+当用户授权后 系统会将`token`拼接在 `url` 后进行跳转
+
+`[url][token]`
+
+- `state` 唯一的应用名 如 `emos`
+- `url` 回调地址 如 `https://emos-link.local/in?token=`
+- `token` 用户token 如 `0d2f1a64`
+
+如 `https://emos-link.local/in?token=0d2f1a64`
 
 ## 机器人授权
 

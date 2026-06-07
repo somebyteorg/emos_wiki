@@ -40,6 +40,8 @@
 }
 ```
 
+### 具体上传方法
+
 #### onedrive
 
 ```js
@@ -81,7 +83,7 @@ fetch(upload_url, {
 let file = File
 
 let upload = new tus.Upload(file, {
-    endpoint: 'https://file.emos.best/files/',
+    endpoint: '[上传地址 upload_url]',
     // 分片大小 不要超过100
     chunkSize: 100 * 1024 * 1024,
     retryDelays: [0, 1000],

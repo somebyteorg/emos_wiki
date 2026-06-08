@@ -16,7 +16,7 @@
 
 当用户授权后 系统会跳到 `url` 这个地址中
 
-`[url]?user_id=[user_id]username=[username]&avatar=[avatar]&token=[token]`
+`[url]?user_id=[user_id]&username=[username]&avatar=[avatar]&token=[token]`
 
 - `uuid` 唯一uuid 自己生成
 - `name` 应用名称

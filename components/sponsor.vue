@@ -984,6 +984,18 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/06/06',
+      name: 'daringwang',
+      price: 66.6,
+      remark: '私聊',
+    },
+    {
+      time: '2026/06/08',
+      name: '落雨',
+      price: 88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -1020,6 +1032,7 @@
       time: '2025/11/05',
       name: 'jack_cco',
       body: '服务器',
+      is_expire: true,
     },
     {
       time: '2025/12/23',

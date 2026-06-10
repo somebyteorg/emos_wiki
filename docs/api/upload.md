@@ -225,7 +225,7 @@ upload.start()
 
 ### 通知
 
-目前的上传通知会在 [emospg_notify](`https://t.me/emospg_notify`) 这里推送
+目前的上传通知会在 [emospg_notify](https://t.me/emospg_notify) 这里推送
 
 如果需要接入通知 可提供一个地址 系统将会以 `POST` 形式发送以下内容到的你的接口
 

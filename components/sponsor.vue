@@ -996,6 +996,12 @@
       price: 88,
       remark: '私聊',
     },
+    {
+      time: '2026/06/10',
+      name: 'GavinMole',
+      price: 88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

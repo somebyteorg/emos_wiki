@@ -1013,6 +1013,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/06/19',
+      name: '降龙',
+      price: 30,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

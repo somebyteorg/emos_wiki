@@ -29,7 +29,7 @@
 
 ## 名词解释
 
-- 'pn' `persion` 人物ID
+- `pn` `persion` 人物ID
 - `vb` `video library` 媒体库ID
 - `vl` `video list` 视频ID
 - `vs` `video season` 电视中 季ID

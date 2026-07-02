@@ -1031,6 +1031,12 @@
       price: 188,
       remark: '私聊',
     },
+    {
+      time: '2026/07/02',
+      name: 'Wulernew',
+      price: 300,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

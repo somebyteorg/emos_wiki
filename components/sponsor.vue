@@ -1049,6 +1049,12 @@
       price: 18.88,
       remark: '私聊',
     },
+    {
+      time: '2026/07/05',
+      name: '泡泡',
+      price: 88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

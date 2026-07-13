@@ -17,6 +17,7 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: 'https://emos.best' },
+      { text: '问题反馈', link: 'https://voice.somebyte.org/project/250823' },
       { text: '系统状态', link: 'https://status.emos.best' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/somebyteorg/emos_home' }],

@@ -10,33 +10,33 @@
 
 ### 请求参数
 
-```json
+```json5
 {
-    // 资源类型 video 视频 subtitle 字幕 image 图片
-    "type": "video",
-    // 文件格式
-    "file_type": "video/mp4",
-    // 文件名称
-    "file_name": "demo.mp4",
-    // 文件大小 字节
-    "file_size": 250817,
-    // 储存位置 global 国际 internal 国内 default 默认
-    "file_storage": "default"
+  // 资源类型 video 视频 subtitle 字幕 image 图片
+  "type": "video",
+  // 文件格式
+  "file_type": "video/mp4",
+  // 文件名称
+  "file_name": "demo.mp4",
+  // 文件大小 字节
+  "file_size": 250817,
+  // 储存位置 global 国际 internal 国内 default 默认
+  "file_storage": "default"
 }
 ```
 
 ### 响应内容
 
-```json
+```json5
 {
-    // 上传的存储设备 分为 onedrive r2 local 等 不同的储存设备请求方式不同
-    "type": "onedrive",
-    // 文件id
-    "file_id": "xWDKXEMv2E",
-    // 上传具体参数
-    "data": {
-        "upload_url": "url"
-    }
+  // 上传的存储设备 分为 onedrive r2 local 等 不同的储存设备请求方式不同
+  "type": "onedrive",
+  // 文件id
+  "file_id": "xWDKXEMv2E",
+  // 上传具体参数
+  "data": {
+    "upload_url": "url"
+  }
 }
 ```
 
@@ -127,21 +127,21 @@ upload.start()
 
 ##### 电影 vl
 
-```json
+```json5
 {
-    "title": "阿凡达：水之道"
+  "title": "阿凡达：水之道"
 }
 ```
 
 ##### 电视集 ve
 
-```json
+```json5
 {
-    "video_list_name": "【我推的孩子】",
-    "season_number": "S01",
-    "episode_number": "E03",
-    "episode_title": "漫画原作的电视剧",
-    "title": "【我推的孩子】 - S01E03 - 漫画原作的电视剧"
+  "video_list_name": "【我推的孩子】",
+  "season_number": "S01",
+  "episode_number": "E03",
+  "episode_title": "漫画原作的电视剧",
+  "title": "【我推的孩子】 - S01E03 - 漫画原作的电视剧"
 }
 ```
 
@@ -151,11 +151,11 @@ upload.start()
 
 #### 请求参数
 
-```json
+```json5
 {
-    "item_type": "vl",
-    "item_id": 1,
-    "file_id": "xWDKXEMv2E"
+  "item_type": "vl",
+  "item_id": 1,
+  "file_id": "xWDKXEMv2E"
 }
 ```
 
@@ -166,14 +166,14 @@ upload.start()
 
 ##### 正常
 
-```json
+```json5
 {
-    // 总上传的数量
-    "count": 2,
-    // 获得的胡萝卜数量
-    "carrot": 0,
-    // 媒体资源ID 删除或获取详情时用
-    "media_id": "Y1qy9kW9v86K"
+  // 总上传的数量
+  "count": 2,
+  // 获得的胡萝卜数量
+  "carrot": 0,
+  // 媒体资源ID 删除或获取详情时用
+  "media_id": "Y1qy9kW9v86K"
 }
 ```
 
@@ -181,9 +181,9 @@ upload.start()
 
 `http code 422`
 
-```json
+```json5
 {
-    "message": "视频正在合并中 请等待1分钟后再保存试下"
+  "message": "视频正在合并中 请等待1分钟后再保存试下"
 }
 ```
 
@@ -197,11 +197,11 @@ upload.start()
 
 #### 请求参数
 
-```json
+```json5
 {
-    "item_type": "vl",
-    "item_id": 1,
-    "file_id": "xWDKXEMv2E"
+  "item_type": "vl",
+  "item_id": 1,
+  "file_id": "xWDKXEMv2E"
 }
 ```
 
@@ -212,12 +212,12 @@ upload.start()
 
 ##### 正常
 
-```json
+```json5
 {
-    // 获得的胡萝卜数量
-    "carrot": 0,
-    // 字幕ID 删除时用
-    "subtitle_id": "Bpvx8YxPoVdQ"
+  // 获得的胡萝卜数量
+  "carrot": 0,
+  // 字幕ID 删除时用
+  "subtitle_id": "Bpvx8YxPoVdQ"
 }
 ```
 
@@ -231,28 +231,28 @@ upload.start()
 
 `tmdb_id` 和 `user_pseudonym` 有概率为 `null`
 
-```json
+```json5
 // 电视
 {
-    "video_id": 1000,
-    "video_type": "tv",
-    "video_title": "21世纪大君夫人",
-    "todb_id": 1000,
-    "tmdb_id": 278573,
-    "media_id": "xxxxx",
-    "user_pseudonym": "张三",
-    "season_number": 1,
-    "episode_number": 1
+  "video_id": 1000,
+  "video_type": "tv",
+  "video_title": "21世纪大君夫人",
+  "todb_id": 1000,
+  "tmdb_id": 278573,
+  "media_id": "xxxxx",
+  "user_pseudonym": "张三",
+  "season_number": 1,
+  "episode_number": 1
 }
 
 // 电影
 {
-    "video_id": 1001,
-    "video_type": "movie",
-    "video_title": "最伟大的作品",
-    "todb_id": 1001,
-    "tmdb_id": null,
-    "media_id": "xxxxxx",
-    "user_pseudonym": null
+  "video_id": 1001,
+  "video_type": "movie",
+  "video_title": "最伟大的作品",
+  "todb_id": 1001,
+  "tmdb_id": null,
+  "media_id": "xxxxxx",
+  "user_pseudonym": null
 }
 ```

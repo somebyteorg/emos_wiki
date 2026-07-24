@@ -19,7 +19,7 @@ curl --location 'https://temporary.emos.best/upload' \
 
 将直接返回直链地址
 
-```json
+```json5
 {
     "url": "https://temporary.emos.best/files/26/04/07/exxs/883480543000c6c5.m4a"
 }

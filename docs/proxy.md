@@ -35,7 +35,7 @@
 
 如 `https://emos.proxy/emby/system/ext/proxy/test`
 
-```json
+```json5
 {
   // 只有为 true 时 才会根据使用次数累加萝卜
   "is_bind": false,

@@ -94,7 +94,7 @@
 
 将接口的错误 `422` `500` 等的错误字段都由 `error` 统一为 `message`
 
-```json
+```json5
 {
   "message": "xxxx"
 }

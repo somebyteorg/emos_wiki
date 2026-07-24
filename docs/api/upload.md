@@ -20,7 +20,7 @@
   "file_name": "demo.mp4",
   // 文件大小 字节
   "file_size": 250817,
-  // 储存位置 global 国际 internal 国内 default 默认
+  // 储存位置 global 国际 internal 国内 default 默认 zn_r2_upload Zn存档服R2
   "file_storage": "default"
 }
 ```
@@ -42,6 +42,8 @@
 
 ### 具体上传方法
 
+- 如果出现跨域问题 请及时反馈
+
 #### onedrive
 
 ```js
@@ -61,8 +63,6 @@ fetch(upload_url, {
 ```
 
 #### r2
-
-- 如果出现跨域问题 请及时反馈
 
 ```js
 let file = File
@@ -110,6 +110,43 @@ let upload = new tus.Upload(file, {
 })
 
 upload.start()
+```
+
+#### multipart
+
+> 这是个 分片上传 流程为 获取上传凭证 -> 客户端进行上传 -> 分片合并
+
+```js
+let file = File
+
+// 根据获取上传凭证中的 分片限制文件大小 计算要分片的数量
+
+// 请求分片凭证
+let presigns = [
+    {
+        "number": 1,
+        "upload_url": "https://emos.local/xxxx",
+        // 暂未用到
+        "upload_data": {}
+    }
+]
+
+// 分片上传
+let parts = []
+for (let persign of presigns) {
+   let part_res = fetch(persign.upload_url, {
+        method: 'PUT',
+        // 切片文件
+        body: file.slice(start, end),
+    })
+    parts.push({
+        number: persign.number,
+        // 拿到响应头返回的 ETag
+        etag: res.headers.get('ETag'),
+    })
+}
+
+// 调用分片合并接口
 ```
 
 ## 视频相关

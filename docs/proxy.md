@@ -77,6 +77,7 @@ content-range: bytes 0-1/84890474
 - `*.sharepoint.cn`
 - `*.sharepoint.com`
 - `*.emosstore.sbs`
+- `*.eeew.eu.org`
 
 ## 现有反代地址
 

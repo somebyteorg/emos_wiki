@@ -20,16 +20,24 @@
   "file_name": "demo.mp4",
   // 文件大小 字节
   "file_size": 250817,
-  // 储存位置 global 国际 internal 国内 default 默认 zn_r2_upload Zn存档服R2
+  // 储存位置
   "file_storage": "default"
 }
 ```
+
+##### `file_storage` 储存位置
+
+- `global` 国际
+- `internal` 国内
+- `default` 默认
+- `zn_r2_upload` Zn存档服R2
+- `google_drive` 谷歌盘
 
 ### 响应内容
 
 ```json5
 {
-  // 上传的存储设备 分为 onedrive r2 local 等 不同的储存设备请求方式不同
+  // 上传的存储设备 分为 onedrive google_drive r2 local 等 不同的储存设备请求方式不同
   "type": "onedrive",
   // 文件id
   "file_id": "xWDKXEMv2E",
@@ -44,7 +52,9 @@
 
 - 如果出现 `cors` 等问题 请及时反馈 本地可以用 `http://localhost:5173` 进行测试
 
-#### onedrive
+#### onedrive / google_drive
+
+> `google_drive` 不支持国内直传且存在 `cors` 问题
 
 ```js
 let file = File,
@@ -52,15 +62,24 @@ let file = File,
     end = file.size - 1,
     total = file.size
 
+/**
+ * onedrive 分片必须是 320 KB 的整数倍
+ * google_drive 分片必须是 256 KB 的整数倍 最小为 5MB
+ */
+
 fetch(upload_url, {
     method: 'PUT',
     headers: {
+        // 实际的 mime type
         'Content-Type': 'application/octet-stream',
         'Content-Range': `bytes ${start}-${end}/${total}`
     },
     body: file,
 })
+
 ```
+
+- https://developers.google.com/workspace/drive/api/guides/manage-uploads?hl=zh-cn#uploading
 
 #### r2
 

@@ -92,3 +92,19 @@ content-range: bytes 0-1/84890474
 <script setup>
 import proxy from '../components/proxy.vue'
 </script>
+
+## 其他
+
+### 视频服聚合相关
+
+> 一切会变成线路的东西最终都会仑略为冰冷冷的线路
+
+一般而言 不建议这么做
+
+大多数 `emby` 播放器请求聚合时候 会传入 `AnyProviderIdEquals.tmdb` 字段
+
+然而 `todbv` 可通过 [`todb`](https://theotherdb.org) `api>video>getVideoIdByExternalId` 传入 `tmdb` 获得
+
+再将多个 `video_id` 用 `,` 拼接以 `todbvs` 参数传入即可
+
+~~当然 如果达到 [`元婴`](./introduction/carrot.md) 时候是自动支持聚合的~~

@@ -107,4 +107,4 @@ import proxy from '../components/proxy.vue'
 
 再将多个 `video_id` 用 `,` 拼接以 `todbvs` 参数传入即可
 
-~~当然 如果达到 [`元婴`](./introduction/carrot.md) 时候是自动支持聚合的~~
+当然 如果达到 [`元婴`](./introduction/carrot.md) 时候是自动支持聚合的

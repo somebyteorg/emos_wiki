@@ -1055,6 +1055,12 @@
       price: 88,
       remark: '私聊',
     },
+    {
+      time: '2026/08/24',
+      name: '匿名',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -1200,7 +1206,7 @@
     {
       time: '2026/03/07',
       name: 'Tomo',
-      body: '服务器',
+      body: '服务器、gd',
     },
     {
       time: '2026/04/12',
@@ -1216,11 +1222,17 @@
       time: '2026/05/15',
       name: 'spotify key',
       body: 'DELE',
+      is_expire: true,
     },
     {
       time: '2026/05/16',
       name: 'spotify key',
       body: 'PaidXing',
+    },
+    {
+      time: '2026/08/21',
+      name: 'VidHub 播放器',
+      body: '5终身',
     },
   ]
 </script>

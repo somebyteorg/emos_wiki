@@ -42,6 +42,14 @@
 
 ### logo
 
+> by `@xiyuliu`
+
 - https://files.emos.best/files/base/logo/logo_1.jpg
 - https://files.emos.best/files/base/logo/logo_2.jpg
+
+### music
+
+> by `莪哋惢倁噵伱啲嬡芣哙離閞莪哋永遠`
+
+- https://files.emos.best/files/base/them_song/260119.mp3
 

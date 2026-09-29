@@ -1061,6 +1061,12 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/09/25',
+      name: '匿名',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
@@ -1228,6 +1234,11 @@
       time: '2026/05/16',
       name: 'PaidXing',
       body: 'spotify key',
+    },
+    {
+      time: '2026/07/20',
+      name: 'EplayerX 播放器',
+      body: '3终身',
     },
     {
       time: '2026/08/21',

@@ -1067,6 +1067,18 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/09/30',
+      name: 'ruoai',
+      price: 88.88,
+      remark: '私聊',
+    },
+    {
+      time: '2026/10/04',
+      name: '躺下來',
+      price: 200,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

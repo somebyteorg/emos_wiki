@@ -1079,6 +1079,12 @@
       price: 200,
       remark: '私聊',
     },
+    {
+      time: '2026/10/06',
+      name: '校长',
+      price: 50,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

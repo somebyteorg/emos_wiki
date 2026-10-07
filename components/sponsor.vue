@@ -1085,6 +1085,12 @@
       price: 50,
       remark: '私聊',
     },
+    {
+      time: '2026/10/07',
+      name: '烧饼',
+      price: 100,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

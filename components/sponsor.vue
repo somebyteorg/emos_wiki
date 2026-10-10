@@ -1091,6 +1091,12 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/10/10',
+      name: 'kobai',
+      price: 66.66,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

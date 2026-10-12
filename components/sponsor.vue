@@ -1097,6 +1097,12 @@
       price: 66.66,
       remark: '私聊',
     },
+    {
+      time: '2026/10/12',
+      name: 'wolf',
+      price: 200,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

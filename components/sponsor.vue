@@ -1103,6 +1103,12 @@
       price: 200,
       remark: '私聊',
     },
+    {
+      time: '2026/10/13',
+      name: '匿名',
+      price: 150,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

@@ -67,8 +67,8 @@ content-range: bytes 0-1/84890474
 
 ### 测速文件
 
-- https://files.emosstore.sbs/files/speedtest/johann-mouse.mp4
-- https://files.emosstore.sbs/files/speedtest/100mb.bin
+- https://files.emosstore.cfd/files/speedtest/johann-mouse.mp4
+- https://files.emosstore.cfd/files/speedtest/100mb.bin
 
 ## 分流相关
 

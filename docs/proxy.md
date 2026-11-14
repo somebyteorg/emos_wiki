@@ -5,7 +5,8 @@
 ## 反代地址
 
 - 视频服反代域名为 `https://video.emos.best` 建议反代路径为 `/emby`
-- 音乐服反代域名为 `https://music.emos.best` 建议反代路径为 `/rest`
+- 音乐服反代域名为 `https://music.emos.best` 建议反代路径为 `/rest` `/navidrome`
+- 听书服反代域名为 `https://abs.emos.best` 建议反代路径为 `/audiobookshelf`
 
 ## 配置相关
 
@@ -37,14 +38,14 @@
 
 ```json5
 {
-  // 只有为 true 时 才会根据使用次数累加萝卜
-  "is_bind": false,
-  "proxy_id": null,
-  // 此处应为你的称号 客户端也会显示出来
-  "proxy_name": null,
-  // 用户实际访问ip 如果一直不对 请及时反馈
-  "ip": "127.0.0.1",
-  "ua": "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+    // 只有为 true 时 才会根据使用次数累加萝卜
+    "is_bind": false,
+    "proxy_id": null,
+    // 此处应为你的称号 客户端也会显示出来
+    "proxy_name": null,
+    // 用户实际访问ip 如果一直不对 请及时反馈
+    "ip": "127.0.0.1",
+    "ua": "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
 }
 ```
 

@@ -1121,6 +1121,12 @@
       price: 100,
       remark: '私聊',
     },
+    {
+      time: '2026/11/15',
+      name: 'hina',
+      price: 88.88,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{

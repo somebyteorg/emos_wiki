@@ -83,7 +83,7 @@ content-range: bytes 0-1/84890474
 
 ## 现有反代地址
 
-服务端已支持 [`emby_ext_domains`](https://github.com/uhdnow/emby_ext_domains) 此功能
+视频服已支持 [`emby_ext_domains`](https://github.com/uhdnow/emby_ext_domains) 此功能
 
 在支持的播放器中，可以直接进行切换地址使用。
 

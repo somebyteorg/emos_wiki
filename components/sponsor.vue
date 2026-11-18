@@ -1133,6 +1133,12 @@
       price: 66.66,
       remark: '私聊',
     },
+    {
+      time: '2026/11/18',
+      name: '烟酒不沾身',
+      price: 9.99,
+      remark: '私聊',
+    },
   ].reverse()
 
   const goods: Array<{
